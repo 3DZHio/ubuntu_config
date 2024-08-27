@@ -4,9 +4,9 @@
 ### APT ###
 sudo apt update
 sudo apt install -y \
-    "curl" "git" "make" \
+    "curl" "git" \
     "fish" "neovim" \
-    "python3" "python3-pip" "python3-venv" \
+    "python3" "python3-pip" "python3-venv" "postgresql" "redis" \
     "remmina" "gpaste-2" \
     "wmctrl"
 sudo apt -y remove "yelp" "gnome-power-manager" "baobab" "simple-scan" "evince" "gnome-text-editor" "nano"
@@ -15,7 +15,7 @@ sudo apt -y full-upgrade
 
 
 ### PIP ###
-pip install "black" --break-system-packages
+pip install "black" "asyncpg" "redis" --break-system-packages
 
 
 ### SNAP ###

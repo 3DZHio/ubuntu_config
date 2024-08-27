@@ -1,5 +1,5 @@
 > [!CAUTION]
-> DO NOT USE: CUSTOM CONFIG FOR UBUNTU
+> DO NOT USE
 
 ```shell
 sudo apt install -y "git"
