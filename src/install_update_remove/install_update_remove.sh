@@ -9,7 +9,7 @@ sudo apt install -y \
     "python3" "python3-pip" "python3-venv" "postgresql" "redis" \
     "remmina" "gpaste-2" \
     "wmctrl"
-sudo apt -y remove "yelp" "gnome-power-manager" "baobab" "simple-scan" "evince" "gnome-text-editor" "nano"
+sudo apt -y remove "yelp" "gnome-power-manager" "baobab" "simple-scan" "evince" "gnome-characters" "gnome-text-editor" "nano"
 sudo apt -y autoremove
 sudo apt -y full-upgrade
 
