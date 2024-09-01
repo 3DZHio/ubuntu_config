@@ -118,9 +118,9 @@ color14=rgb(152,154,156)
 color15=rgb(213,204,186)
 
 [remmina_info]
-periodic_news_permitted=true
-periodic_usage_stats_permitted=true
-disable_tip=false
+periodic_news_permitted=false
+periodic_usage_stats_permitted=false
+disable_tip=true
 
 [remmina]
 name=
