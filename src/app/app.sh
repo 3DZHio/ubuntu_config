@@ -1,7 +1,8 @@
 #!/bin/bash
 
+
 ### GIT ###
-cp app/config/.gitconfig ~/
+cp app/config/git/.gitconfig ~/
 
 
 ### TERMINAL ###
@@ -15,11 +16,17 @@ cp -a app/config/fish/ ~/.config/
 cp -a app/config/nvim/ ~/.config/
 
 
+### PYCHARM ###
+cp app/config/pycharm/THEME.icls ~/.config/JetBrains/PyCharm*/colors/
+
+
 ### FIREFOX ###
-cp app/config/firefox/user.js ~/snap/firefox/common/.mozilla/firefox/*.default/
+cp app/config/firefox/config/user.js ~/snap/firefox/common/.mozilla/firefox/*.default/
+wget "https://addons.mozilla.org/firefox/downloads/file/4350677/bitwarden_password_manager.xpi"
+firefox bitwarden_password_manager.xpi
 
 ## TWP ##
-cp app/config/twp.txt ~/Downloads/
+cp app/config/firefox/twp.txt ~/Downloads/
 
 
 ### REMMINA ###
