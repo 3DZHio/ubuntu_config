@@ -22,7 +22,6 @@ cp app/config/pycharm/THEME.icls ~/.config/JetBrains/PyCharm*/colors/
 
 ### FIREFOX ###
 cp app/config/firefox/config/user.js ~/snap/firefox/common/.mozilla/firefox/*.default/
-firefox "https://addons.mozilla.org/firefox/downloads/file/4350677/bitwarden_password_manager.xpi"
 
 ## TWP ##
 cp app/config/firefox/twp.txt ~/Downloads/
