@@ -8,7 +8,7 @@ user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-f
 // *** GENERAL *** //
 // STARTUP //
 user_pref("browser.startup.page", 3);
-user_pref("browser.startup.homepage", "https://www.google.com/");
+user_pref("browser.startup.homepage", "about:blank");
 user_pref("browser.newtabpage.enabled", false);
 
 // BROWSING //
