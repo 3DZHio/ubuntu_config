@@ -1,16 +1,28 @@
 ### SETTINGS ###
+## DEFAULT ##
 set -U fish_greeting
 
+## MAIN ##
+# ZOXIDE #
+zoxide init fish | source
+
+
 ### ALIASES ###
-# SYSTEM #
+## SYSTEM ##
 alias suspend="sudo systemctl suspend"
 alias shutdown="sudo shutdown now"
 alias reboot="sudo reboot"
 
-# DEFAULT #
+## DEFAULT ##
 alias c="clear"
-alias l="ls -alh"
 alias h="history"
 
-# MAIN #
+## MAIN ##
+# VIM #
 alias v="nvim"
+
+# EZA #
+alias l="eza --oneline --long --header --git --color=always --icons=always"
+alias lt="eza --oneline --long --header --git --color=always --icons=always --tree"
+alias la="eza --oneline --long --header --git --color=always --icons=always --all"
+alias lat="eza --oneline --long --header --git --color=always --icons=always --all --tree"
