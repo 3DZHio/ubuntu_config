@@ -5,6 +5,10 @@ import = [
 ]
 
 
+### SHELL ###
+shell = { program = "/usr/bin/fish", args = ["-C", "neofetch"] }
+
+
 ### FONT ###
 [font]
 size = 16.0
@@ -22,10 +26,6 @@ style = { shape = "Beam", blinking = "Never" }
 ### SELECTION ###
 [selection]
 save_to_clipboard = true
-
-
-### SHELL ###
-shell = { program = "/usr/bin/fish", args = ["-C", "neofetch"] }
 
 
 ### WINDOW ###
