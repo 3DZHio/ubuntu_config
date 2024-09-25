@@ -39,9 +39,10 @@ pip install --break-system-packages \
 ### SNAP ###
 killall "snap-store" "firefox"
 sudo snap refresh
-sudo snap install "docker"
-sudo snap install "pycharm-community" --classic
 sudo snap install "telegram-desktop"
+sudo snap install "pycharm-community" --classic
+sudo snap install "pgadmin4"
+sudo snap install "docker"
 
 
 ### DRIVER ###
