@@ -12,42 +12,42 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys 'home' "[]"
 gsettings set org.gnome.settings-daemon.plugins.media-keys 'www' "[]"
 
 ## CUSTOM ##
-gsettings set org.gnome.settings-daemon.plugins.media-keys 'custom-keybindings' "['/custom0/', '/custom1/', '/custom2/', '/custom3/', '/custom4/', '/custom5/', '/custom6/']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys 'custom-keybindings' "['/0/', '/1/', '/2/', '/3/', '/4/', '/5/', '/6/']"
 
 # TERMINAL #
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom0/ 'name' "Terminal"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom0/ 'command' "bash -c 'wmctrl -xa alacritty || alacritty'"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom0/ 'binding' "<Control><Alt>t"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/0/ 'name' "Terminal"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/0/ 'command' "bash -c 'wmctrl -xa alacritty || alacritty'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/0/ 'binding' "<Control><Alt>t"
 
 # FILE MANAGER #
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom1/ 'name' "Files"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom1/ 'command' "bash -c 'wmctrl -xa nautilus || nautilus'"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom1/ 'binding' "'<Super>e'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/1/ 'name' "Files"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/1/ 'command' "bash -c 'wmctrl -xa nautilus || nautilus'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/1/ 'binding' "'<Control><Alt>e'"
 
 # FIREFOX #
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom2/ 'name' "FireFox"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom2/ 'command' "bash -c 'wmctrl -xa firefox || firefox'"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom2/ 'binding' "<Control><Alt>f"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/2/ 'name' "FireFox"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/2/ 'command' "bash -c 'wmctrl -xa firefox || firefox'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/2/ 'binding' "<Control><Alt>f"
 
 # TELEGRAM #
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom3/ 'name' "Telegram"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom3/ 'command' "bash -c 'wmctrl -xa telegram || telegram-desktop'"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom3/ 'binding' "<Control><Alt>a"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/3/ 'name' "Telegram"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/3/ 'command' "bash -c 'wmctrl -xa telegram || telegram-desktop'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/3/ 'binding' "<Control><Alt>a"
 
 # PYCHARM #
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom4/ 'name' "PyCharm"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom4/ 'command' "bash -c 'wmctrl -xa pycharm || pycharm-community'"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom4/ 'binding' "<Control><Alt>z"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/4/ 'name' "PyCharm"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/4/ 'command' "bash -c 'wmctrl -xa pycharm || pycharm-community'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/4/ 'binding' "<Control><Alt>z"
 
 # PGADMIN #
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom5/ 'name' "PgAdmin"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom5/ 'command' "bash -c 'wmctrl -xa pgadmin || pgadmin4'"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom5/ 'binding' "<Control><Alt>x"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/5/ 'name' "PgAdmin"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/5/ 'command' "bash -c 'wmctrl -xa pgadmin || pgadmin4'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/5/ 'binding' "<Control><Alt>x"
 
 # REMMINA #
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom6/ 'name' "Remmina"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom6/ 'command' "bash -c 'wmctrl -xa remmina || remmina'"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/custom6/ 'binding' "<Control><Alt>c"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/6/ 'name' "Remmina"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/6/ 'command' "bash -c 'wmctrl -xa remmina || remmina'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/6/ 'binding' "<Control><Alt>c"
 
 
 ### LANGUAGE ###
