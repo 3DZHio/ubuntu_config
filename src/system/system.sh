@@ -116,3 +116,8 @@ gsettings set org.gnome.desktop.privacy 'old-files-age' "7"
 cp -af system/config/sounds/__custom/ ~/.local/share/sounds/
 gsettings set org.gnome.desktop.sound 'event-sounds' "true"
 gsettings set org.gnome.desktop.sound 'theme-name' "__custom"
+
+
+### BACKGROUND ###
+cp system/config/background/Pandemonium.jpg ~/.local/share/backgrounds/
+gsettings set org.gnome.desktop.background 'picture-uri-dark' "file:///$HOME/.local/share/backgrounds/Pandemonium.jpg"
