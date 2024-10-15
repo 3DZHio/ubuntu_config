@@ -16,37 +16,37 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys 'custom-keybindings' 
 
 # TERMINAL #
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/0/ 'name' "Terminal"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/0/ 'command' "bash -c 'wmctrl -xa alacritty || alacritty'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/0/ 'command' "bash -c 'if wmctrl -xa alacritty > /dev/null; then wmctrl -xa alacritty -b add,maximized_vert,maximized_horz; else alacritty; fi'"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/0/ 'binding' "<Control><Alt>t"
 
 # FILE MANAGER #
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/1/ 'name' "Files"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/1/ 'command' "bash -c 'wmctrl -xa nautilus || nautilus'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/1/ 'command' "bash -c 'if wmctrl -xa nautilus > /dev/null; then wmctrl -xa nautilus -b add,maximized_vert,maximized_horz; else nautilus; fi'"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/1/ 'binding' "'<Control><Alt>e'"
 
 # FIREFOX #
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/2/ 'name' "FireFox"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/2/ 'command' "bash -c 'wmctrl -xa firefox || firefox'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/2/ 'command' "bash -c 'if wmctrl -xa firefox > /dev/null; then wmctrl -xa firefox -b add,maximized_vert,maximized_horz; else firefox; fi'"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/2/ 'binding' "<Control><Alt>f"
 
 # TELEGRAM #
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/3/ 'name' "Telegram"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/3/ 'command' "bash -c 'wmctrl -xa telegram || telegram-desktop'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/3/ 'command' "bash -c 'if wmctrl -xa telegram > /dev/null; then wmctrl -xa telegram -b add,maximized_vert,maximized_horz; else telegram-desktop; fi'"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/3/ 'binding' "<Control><Alt>a"
 
 # PYCHARM #
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/4/ 'name' "PyCharm"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/4/ 'command' "bash -c 'wmctrl -xa pycharm || pycharm-community'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/4/ 'command' "bash -c 'if wmctrl -xa pycharm > /dev/null; then wmctrl -xa pycharm -b add,maximized_vert,maximized_horz; else pycharm-community; fi'"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/4/ 'binding' "<Control><Alt>z"
 
 # PGADMIN #
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/5/ 'name' "PgAdmin"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/5/ 'command' "bash -c 'wmctrl -xa pgadmin || pgadmin4'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/5/ 'command' "bash -c 'if wmctrl -xa pgadmin > /dev/null; then wmctrl -xa pgadmin -b add,maximized_vert,maximized_horz; else pgadmin4; fi'"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/5/ 'binding' "<Control><Alt>x"
 
 # REMMINA #
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/6/ 'name' "Remmina"
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/6/ 'command' "bash -c 'wmctrl -xa remmina || remmina'"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/6/ 'command' "bash -c 'if wmctrl -xa remmina > /dev/null; then wmctrl -xa remmina -b add,maximized_vert,maximized_horz; else remmina; fi'"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/6/ 'binding' "<Control><Alt>c"
 
 

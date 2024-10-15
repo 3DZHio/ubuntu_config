@@ -25,7 +25,7 @@ cp app/config/pycharm/THEME.icls ~/.config/JetBrains/PyCharm*/colors/
 
 
 ### FIREFOX ###
-cp app/config/firefox/config/prefs.js ~/snap/firefox/common/.mozilla/firefox/*.default/
+source app/config/firefox/config/prefs.sh
 cp app/config/firefox/config/user.js ~/snap/firefox/common/.mozilla/firefox/*.default/
 
 ## TWP ##
